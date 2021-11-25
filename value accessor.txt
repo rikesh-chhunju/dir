@@ -1,0 +1,11 @@
++------------------------------------+----------------------+
+|              Accessor              |     Form Element     |
++------------------------------------+----------------------+
+| DefaultValueAccessor               | input, textarea      |
+| CheckboxControlValueAccessor       | input[type=checkbox] |
+| NumberValueAccessor                | input[type=number]   |
+| RadioControlValueAccessor          | input[type=radio]    |
+| RangeValueAccessor                 | input[type=range]    |
+| SelectControlValueAccessor         | select               |
+| SelectMultipleControlValueAccessor | select[multiple]     |
++------------------------------------+----------------------+

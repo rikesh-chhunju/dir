@@ -1,0 +1,10 @@
+express server for the language data
+- run server 'node app.js'
+
+-- urls 
+- localhost:3000/en - english language (Json data) 
+- localhost:3000/ne - nepali language
+- localhost:3000/de - German language
+
+
+on angular frontend change on app.modules.ts to have urls to get the language data

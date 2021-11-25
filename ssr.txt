@@ -1,0 +1,14 @@
+Server side rendering 
+- angular universal
+	@nguniversal/express-engine
+
+	add package
+	- ng add @nguniversal/express-engine
+
+	run application
+
+	- npm run build:ssr
+	- npm run serve:ssr
+
+
+ - @ng-toolkit/universal

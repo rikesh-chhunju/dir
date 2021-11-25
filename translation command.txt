@@ -1,0 +1,7 @@
+command for localization using build in @angular/localize
+
+
+<p i18n="title | description@@home-description"></>
+
+generate message.xlf for translation command:-
+ng xi18n --output-path translate  

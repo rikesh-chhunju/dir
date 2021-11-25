@@ -1,0 +1,14 @@
+@Input() public lightClass: string = '';
+@Input() public darkClass: string = '';
+@Input() public darkThemeEnabled: boolean = false;
+
+public themedStyleClass: string = '';
+
+
+ngOnChanges(): void {
+    if (this.darkThemeEnabled) {
+      this.themedStyleClass = `${this.styleClass} ${this.darkClass}`;
+    } else {
+      this.themedStyleClass = `${this.styleClass} ${this.lightClass}`;
+    }
+  }
